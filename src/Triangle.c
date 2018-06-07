@@ -19,47 +19,5 @@ char *getTriangleName(int L1,int L2, int L3){
 		else {
 			return "Scalene";
 		}
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}	
 }
-	
-	/*if (l1 == l2 || l1 == l3 || l2 == l3) {
-		
-		if (l1 == '0' || l2 == '0' || l3 == '0') {
-			
-			return "This is not a triangle!";
-		}
-		
-		if(l1 == l2 && l2 == l3 && l1 == l3) {
-			return "Equilateral";
-		}
-		
-		else {
-		return "Isosceles";
-		}
-	}
-	
-	
-	
-	else{
-		return "Scalene";
-	}
-	
-} */
-
-

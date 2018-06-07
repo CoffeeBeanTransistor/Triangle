@@ -12,7 +12,6 @@ void tearDown(void)
 void test_getTriangleName_given_2_2_5_expects_is_isoceles (void) {
 	char *triangleName = getTriangleName(2, 2, 5);
 	
-	
 	TEST_ASSERT_EQUAL_STRING("Isosceles", triangleName);
 }
 	
@@ -31,7 +30,6 @@ void test_getTriangleName_given_21_56_21_expects_is_isoceles (void) {
 void test_getTriangleName_given_2_2_2_expects_is_equailateral (void) {
 	char *triangleName = getTriangleName(2, 2, 2);
 	
-	
 	TEST_ASSERT_EQUAL_STRING("Equilateral", triangleName);
 }
 
@@ -49,7 +47,6 @@ void test_getTriangleName_given_65_65_65_expects_is_equailateral (void) {
 
 void test_getTriangleName_given_7_2_6_expects_is_scalene (void) {
 	char *triangleName = getTriangleName(7, 2, 6);
-	
 	
 	TEST_ASSERT_EQUAL_STRING("Scalene", triangleName);
 }
